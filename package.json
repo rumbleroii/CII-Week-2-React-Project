@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rumbleroii.github.io/CII-Week-2-React-Calculator",
+  "homepage": "https://rumbleroii.github.io/CII-Week-2-React-Project",
   "name": "react_calculator_ig",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

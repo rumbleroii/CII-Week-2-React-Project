@@ -5,6 +5,7 @@ function CalcApp() {
   const [result, setResult] = useState("");
 
   function keypadClick(e) {
+    if (e.target.name === "." && result.includes(".")) return;
     setResult(result + e.target.name);
   }
 
@@ -13,17 +14,15 @@ function CalcApp() {
   }
 
   function calculate() {
-    if (eval(result).toString() === "Infinity") {
-      setResult("Divide By Zero Error");
-    } else {
-      try {
-        setResult((eval(result)).toString());
-      } catch {
-        setResult("◘ERROR◘");
+    try {
+      setResult(eval(result).toString());
+      if (eval(result).toString() === "Infinity") {
+        setResult("Divide By Zero Error");
       }
+    } catch {
+      setResult("◘ERROR◘");
     }
   }
-  console.log(result);
 
   function sin() {
     if (result === "") {
@@ -63,6 +62,8 @@ function CalcApp() {
         setResult("Error");
       } else if (result === 0) {
         setResult(1);
+      } else if (result > 69) {
+        setResult("Computational Limit Reached");
       } else {
         let fact = 1;
         for (let i = 1; i <= result; i++) {
