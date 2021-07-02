@@ -17,7 +17,7 @@ function CalcApp() {
       setResult("Divide By Zero Error");
     } else {
       try {
-        setResult((eval(result).toString());
+        setResult((eval(result)).toString());
       } catch {
         setResult("◘ERROR◘");
       }
