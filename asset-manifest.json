@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CII-Week-2-React-Project/static/css/main.cdb185e5.chunk.css",
-    "main.js": "/CII-Week-2-React-Project/static/js/main.6d8739fc.chunk.js",
-    "main.js.map": "/CII-Week-2-React-Project/static/js/main.6d8739fc.chunk.js.map",
+    "main.js": "/CII-Week-2-React-Project/static/js/main.5adfdf22.chunk.js",
+    "main.js.map": "/CII-Week-2-React-Project/static/js/main.5adfdf22.chunk.js.map",
     "runtime-main.js": "/CII-Week-2-React-Project/static/js/runtime-main.1aa80112.js",
     "runtime-main.js.map": "/CII-Week-2-React-Project/static/js/runtime-main.1aa80112.js.map",
     "static/js/2.b9da4441.chunk.js": "/CII-Week-2-React-Project/static/js/2.b9da4441.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1aa80112.js",
     "static/js/2.b9da4441.chunk.js",
     "static/css/main.cdb185e5.chunk.css",
-    "static/js/main.6d8739fc.chunk.js"
+    "static/js/main.5adfdf22.chunk.js"
   ]
 }
