@@ -5,7 +5,6 @@ function CalcApp() {
   const [result, setResult] = useState("");
 
   function keypadClick(e) {
-    if (e.target.name === "." && result.includes(".")) return;
     setResult(result + e.target.name);
   }
 
